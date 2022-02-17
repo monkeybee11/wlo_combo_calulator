@@ -6,7 +6,7 @@ from guizero import App, Slider, Text, Box
 def yourlvl():
     
     c = c1.value + c2.value + c3.value + c4.value + p1.value + p2.value + p3.value + p4.value
-    p = c / 8
+    p = c / party_size.value
     g = p - 25
     answer.value = g
     
